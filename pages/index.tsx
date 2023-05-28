@@ -332,16 +332,6 @@ export default function Home() {
                       </label>
                       <div className="grid grid-cols-6 gap-2 mt-2">
                         <div
-                          onClick={() => setSize("s")}
-                          className={`flex p-1 border-2 text-white cursor-pointer  hover:border-orange-500  text-center justify-center rounded-lg ${
-                            size === "s"
-                              ? "border-orange-500"
-                              : "border-gray-700"
-                          }`}
-                        >
-                          S
-                        </div>
-                        <div
                           onClick={() => setSize("m")}
                           className={`flex p-1 border-2 text-white cursor-pointer  hover:border-orange-500  text-center justify-center rounded-lg ${
                             size === "m"
@@ -381,6 +371,16 @@ export default function Home() {
                         >
                           XXL
                         </div>
+                        <div
+                          onClick={() => setSize("3xl")}
+                          className={`flex p-1 border-2 text-white cursor-pointer  hover:border-orange-500  text-center justify-center rounded-lg ${
+                            size === "3xl"
+                              ? "border-orange-500"
+                              : "border-gray-700"
+                          }`}
+                        >
+                          3XL
+                        </div>
                       </div>
                     </div>
                     <div>
@@ -406,7 +406,7 @@ export default function Home() {
                               : "border-gray-700"
                           }`}
                         >
-                          2 Ensembles (9900 DA)
+                          2 Ensembles (9800 DA)
                         </div>
                       </div>
                     </div>

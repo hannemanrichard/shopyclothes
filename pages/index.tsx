@@ -493,7 +493,7 @@ export default function Home() {
                         </p> */}
                         <p className="sm:flex block text-center mt-12 justify-center">
                           <span className="text-5xl text-orange-500 font-bold  block sm:inline">
-                            {offer === 1 ? "5800" : "9900"} DA
+                            {offer === 1 ? "5800" : "9800"} DA
                           </span>
                           {/* <span className=" text-white text-lg line-through block sm:inline">
                             {offer === 1 ? } DA

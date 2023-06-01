@@ -103,7 +103,7 @@ export default function Home() {
           phone: `${number}`,
           wilaya: province,
           commune: address,
-          product: `outfit`,
+          product: `ensemble`,
           size,
           color: productColor,
           agent_id: agentId,
